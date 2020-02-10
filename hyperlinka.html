@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Jim+Nightshade|Josefin+Sans&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="http://omattos.com/favicon.ico" />
+		<style>
+			h1 {
+				font-family: 'Josefin Sans', sans-serif;
+			}
+			p {
+				font-family: 'Jim Nightshade', cursive;
+			}
+			body{
+				background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+			}
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="csv.js"></script>
+		<script src="hyperlinka.js"></script>
+	</head>
+	<body>
+		<h1>I am the Hyperlinka!</h1>
+		<p>Give me stuff to hyperlink!</p>
+		
+		<p>Dictionary: <input type="file" id="dictionary"></p>
+		
+		<button onclick='go()'>Go!!!!</button>
+		<textarea id='yourtext'>
+		</textarea>
+		<p id='yournewtext'></p>
+	</body>
+</html>
